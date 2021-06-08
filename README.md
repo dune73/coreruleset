@@ -1,11 +1,8 @@
-![GHA build v3.4/dev](https://github.com/coreruleset/coreruleset/workflows/Regression%20Tests/badge.svg?branch=v3.4%2Fdev)
-![GHA build v3.3/dev](https://github.com/coreruleset/coreruleset/workflows/Regression%20Tests/badge.svg?branch=v3.3%2Fdev)
-![GHA build v3.2/dev](https://github.com/coreruleset/coreruleset/workflows/Regression%20Tests/badge.svg?branch=v3.2%2Fdev)
-[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-38a047.svg)](https://owasp.org/projects/)
+![Travis build v3.3/dev](https://img.shields.io/travis/spiderlabs/owasp-modsecurity-crs/v3.3/dev?label=v3.3%2Fdev)
+![Travis build v3.2/dev](https://img.shields.io/travis/spiderlabs/owasp-modsecurity-crs/v3.2/dev?label=v3.2%2Fdev)
+![Travis build v3.1/dev](https://img.shields.io/travis/spiderlabs/owasp-modsecurity-crs/v3.1/dev?label=v3.1%2Fdev)
+[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-38a047.svg)](https://www.owasp.org/index.php/OWASP_Project_Inventory#tab=Flagship_Projects)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1390/badge)](https://bestpractices.coreinfrastructure.org/projects/1390)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-
 
 # OWASP ModSecurity Core Rule Set (CRS)
 
@@ -19,15 +16,14 @@ Please see the [OWASP ModSecurity Core Rule Set page](https://coreruleset.org/) 
 
 We strive to make the OWASP ModSecurity CRS accessible to a wide audience of beginner and experienced users. We are interested in hearing any bug reports, false positive alert reports, evasions, usability issues, and suggestions for new detections.
 
-[Create an issue on GitHub](https://github.com/coreruleset/coreruleset/issues) to report a false positive or false negative (evasion). Please include your installed version and the relevant portions of your ModSecurity audit log. We will try and address your issue and potentially ask for additional information in order to reproduce your problem. Please also note that stale issues will be flagged and closed after 120 days. You can search for stale issues with the following [search query](https://github.com/coreruleset/coreruleset/issues?q=label%3A%22Stale+issue%22).
+[Create an issue on GitHub](https://github.com/SpiderLabs/owasp-modsecurity-crs/issues) to report a false positive or false negative (evasion). Please include your installed version and the relevant portions of your ModSecurity audit log.
 
 [Sign up for our Google Group](https://groups.google.com/a/owasp.org/forum/#!forum/modsecurity-core-rule-set-project) to ask general usage questions and participate in discussions on the CRS. Also [here](https://lists.owasp.org/pipermail/owasp-modsecurity-core-rule-set/index) you can find the archives for the previous mailing list.
 
-[Join the #coreruleset channel on OWASP Slack](https://owasp.slack.com/) to chat about the CRS.
+[Join the #coreruleset channel on OWASP Slack](http://owaspslack.com) to chat about the CRS. ([Click here](https://owasp-slack.herokuapp.com/) to get an invitation if you are not yet registered on the OWASP slack. It's open to non-members too.)
 
 ## License
 
-Copyright (c) 2006-2020 Trustwave and contributors. All rights reserved.
-Copyright (c) 2021 Core Rule Set project. All rights reserved.
+Copyright (c) 2006-2019 Trustwave and contributors. All rights reserved.
 
 The OWASP ModSecurity Core Rule Set is distributed under Apache Software License (ASL) version 2. Please see the enclosed LICENSE file for full details.
